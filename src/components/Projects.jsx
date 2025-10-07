@@ -26,7 +26,7 @@ const Projects = () => {
       technologies: ['React', 'Tailwind CSS', 'Vite'],
       icon: <FaReact />,
       gradient: 'from-orange-500 to-red-500',
-      github: '#',
+      github: 'https://github.com/sakshi10067/Devloper-Portfolio-Website',
       live: '#'
     },
   ];
@@ -112,3 +112,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
