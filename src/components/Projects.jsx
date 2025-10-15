@@ -3,6 +3,15 @@ import { FaGithub, FaExternalLinkAlt, FaReact, FaNode, FaPython } from 'react-ic
 const Projects = () => {
   const projects = [
     {
+      title: 'NanoLink - URL Shortener',
+      description: 'A URL shortening service that provides analytics and link management features.',
+      technologies: ['React Js', 'MongoDB Atlas', 'Zod', 'Radix UI', 'express.js', 'React Router Dom'],
+      icon: <FaNode />,
+      gradient: 'from-green-500 to-emerald-500',
+      github: 'https://github.com/sakshi10067/NanoLink--Url-Shortener',
+      live: '#'
+    },
+    {
       title: 'HerShield - Women Safety Platform',
       description: 'A comprehensive women safety platform developed for Parul Hackverse. Features real-time location tracking, emergency SOS, and community support network.',
       technologies: ['Flutter', 'Firebase', 'Google Maps API', 'RAG', 'Geofencing', 'LangChain'],
@@ -12,12 +21,12 @@ const Projects = () => {
       live: '#'
     },
     {
-      title: 'NanoLink - URL Shortener',
-      description: 'A URL shortening service that provides analytics and link management features.',
-      technologies: ['React Js', 'MongoDB Atlas', 'Zod', 'Radix UI', 'express.js', 'React Router Dom'],
-      icon: <FaNode />,
+      title: 'ChatWithDoc - URL Shortener',
+      description: 'Chat with your pdfs and images to ask any question without reading.',
+      technologies: ['Python', 'PyMuPdf', 'Streamlit', 'Gemini API'],
+      icon: <FaPython />,
       gradient: 'from-green-500 to-emerald-500',
-      github: 'https://github.com/sakshi10067/NanoLink--Url-Shortener',
+      github: 'https://github.com/sakshi10067/ChatWithDoc',
       live: '#'
     },
     {
@@ -112,4 +121,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
